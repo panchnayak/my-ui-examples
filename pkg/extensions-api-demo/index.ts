@@ -189,4 +189,16 @@ export default function(plugin: IPlugin) {
       },
     }
   );
+
+  plugin.addTableColumn(
+    TableColumnLocation.RESOURCE,
+    { resource: ['management.cattle.io.user'] },
+    {
+      name:     'some-prop-col',
+      labelKey: 'plugin-examples.user-email',
+      getValue: (row: any) => {
+        return `${ row.id }-DEMO-EMAIL-ID-ADDED!`;
+      },
+    }
+  );
 }
