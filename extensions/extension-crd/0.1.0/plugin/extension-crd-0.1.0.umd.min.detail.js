@@ -1,2 +1,0 @@
-(("undefined"!==typeof self?self:this)["webpackJsonpextension_crd_0_1_0"]=("undefined"!==typeof self?self:this)["webpackJsonpextension_crd_0_1_0"]||[]).push([[0],{"1be0":function(e,s,n){"use strict";n.r(s);var t=function(){var e=this,s=e._self._c;return s("div",[s("h1",[e._v(e._s(e.value.name))]),s("h3",[e._v(e._s(e.value.version))])])},u=[],_={props:{value:{type:Object,required:!0}}},f=_,i=n("d802"),l=Object(i["a"])(f,t,u,!1,null,"09dcf33c",null);s["default"]=l.exports}}]);
-//# sourceMappingURL=extension-crd-0.1.0.umd.min.detail.js.map
