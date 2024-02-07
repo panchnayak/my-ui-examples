@@ -18,5 +18,4 @@ plugin/extensions-api-demo-0.1.0.umd.min.9.js
 plugin/extensions-api-demo-0.1.0.umd.min.9.js.map
 plugin/extensions-api-demo-0.1.0.umd.min.js
 plugin/extensions-api-demo-0.1.0.umd.min.js.map
-plugin/img/rancher-desktop.49fdf2f7.svg
 plugin/package.json

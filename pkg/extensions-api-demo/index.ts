@@ -180,7 +180,7 @@ export default function(plugin: IPlugin) {
   );
   plugin.addTableColumn(
     TableColumnLocation.RESOURCE,
-    { resource: ['userattribute'] },
+    { resource: ['UserAttributes'] },
     {
       name:     'some-prop-col',
       labelKey: 'plugin-examples.user-email',
