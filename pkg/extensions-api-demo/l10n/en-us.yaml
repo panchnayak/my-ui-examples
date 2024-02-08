@@ -9,4 +9,5 @@ plugin-examples:
   card-title-three: Demo card title 3
   card-title-four: Demo card title 4
   col-label: Demo col label
-  user-email: Demo User Email ID
+  social-media-userid: Social Media User ID
+  user-email: User Email ID

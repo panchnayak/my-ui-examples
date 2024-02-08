@@ -197,8 +197,20 @@ export default function(plugin: IPlugin) {
       name:     'some-prop-col',
       labelKey: 'plugin-examples.user-email',
       getValue: (row: any) => {
-        return `${ row.id }-DEMO-EMAIL-ID-ADDED!`;
+        return `${ row.id }-User-EMAIL-ID-ADDED!`;
       },
     }
+  );
+  plugin.addTableColumn(
+    TableColumnLocation.RESOURCE,
+    { resource: ['management.cattle.io.user'] },
+    {
+      name:     'some-prop-col',
+      labelKey: 'plugin-examples.social-media-userid',
+      getValue: (row: any) => {
+        return `${ row.id }-Social-user-ID!`;
+      },
+    }
+    
   );
 }
